@@ -9,7 +9,7 @@ import requests
 logging.basicConfig(level=logging.INFO)
 
 # Инициализация бота и диспетчера
-API_TOKEN = '6934206354:AAGyYYf86ZQNKHD83CBS4nqLDUkE6Z1yM3c'
+API_TOKEN = 'YOUR API TOKEN'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 dp.middleware.setup(LoggingMiddleware())
